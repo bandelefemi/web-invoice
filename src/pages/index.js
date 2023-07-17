@@ -7,7 +7,13 @@ export default function Home() {
   // const {data: session} = useSession()
   return (
     <div className=" h-full">
-      <Hero />
+      <Hero 
+        ui={0} 
+        frontend={0} 
+        backend={0} 
+        name={""}
+        phone ={''}
+        email= {""} />
       <Footer />
     </div>
   )
