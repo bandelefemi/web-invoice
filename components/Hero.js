@@ -102,7 +102,7 @@ const Hero = ({ui, frontend, backend,phone, email, name}) => {
                 Account name
               </p>
               <p className=' font-extralight mt-1'>
-                My name
+                Bandele Femi
               </p>
             </div>
             <div className=" text-xs">
