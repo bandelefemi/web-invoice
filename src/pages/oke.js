@@ -6,9 +6,9 @@ const oke = () => {
   return (
     <div>
         <Hero 
-          ui={150000} 
-          frontend={250000} 
-          backend={100000} 
+          ui={0} 
+          frontend={180000} 
+          backend={0} 
           name={"Andrew Oke"}
           phone ={'07062206649'}
           email= {"okeson.andersson@gmail.com"} />
