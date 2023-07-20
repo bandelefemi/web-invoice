@@ -7,11 +7,11 @@ const oke = () => {
     <div>
         <Hero 
           ui={0} 
-          frontend={160000} 
+          frontend={230000} 
           backend={0} 
-          name={"Andrew Oke"}
-          phone ={'07062206649'}
-          email= {"okeson.andersson@gmail.com"} />
+          name={"Ben Okpancho"}
+          phone ={'08033542269'}
+          email= {"benokpancho@gmail.com"} />
         <Footer />
     </div>
   )

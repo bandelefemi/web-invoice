@@ -46,10 +46,10 @@ const Hero = ({ui, frontend, backend,phone, email, name}) => {
             {/* heading */}
             <div className=' flex flex-col mx-auto'>
                 <p className=' text-white text-lg md:text-xl tracking-wide font-light'>
-                  Quotation <span>|</span> <span>{name}</span>
+                  Invoice <span>|</span> <span>{name}</span>
                 </p>
                 <p className=' text-[#999999] font-extralight text-sm md:mt-2'>
-                  No. <span>0005</span> <span>|</span> <span className=' font-normal'>Date: </span> <span>{new Date().toJSON().slice(0, 10)}</span>
+                  <span className=' font-normal'>No.</span>  <span>0032</span> <span>|</span> <span className=' font-normal'>Date: </span> <span>{new Date().toJSON().slice(0, 10)}</span>
                 </p>
             </div>
         </div>
@@ -81,7 +81,7 @@ const Hero = ({ui, frontend, backend,phone, email, name}) => {
               Abuja, Nigetia 
             </p>
             <p className=' text-xs font-thin'>
-              {/* Email@email.com */}
+              {email}
             </p>
           </div>
         </div>
