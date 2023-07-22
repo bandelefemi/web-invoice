@@ -7,8 +7,8 @@ const oke = () => {
     <div>
         <Hero 
           ui={0} 
-          frontend={230000} 
-          backend={0} 
+          frontend={170000} 
+          backend={50000} 
           name={"Ben Okpancho"}
           phone ={'08033542269'}
           email= {"benokpancho@gmail.com"} />
