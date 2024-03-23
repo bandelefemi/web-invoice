@@ -11,7 +11,7 @@ const Hero = ({ui, frontend, backend,phone, email, name}) => {
 
 
   const config = {
-    public_key: "FLWPUBK-69a836c286b226b38415883c9ae29234-X",
+    public_key: "FLWPUBK-4b4012f64446ccc8708cb63741daed58-X",
     tx_ref: Date.now(),
     amount: total,
     currency: "NGN",
